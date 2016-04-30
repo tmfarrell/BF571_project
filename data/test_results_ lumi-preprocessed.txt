@@ -1,0 +1,26 @@
+differential_gene & differential_protein
+stat: 0.122451909273615 
+pval: 0.380859074555241
+stat: 6688 
+pval: 0.609343543443787
+
+
+differenced_differential_gene & differenced_differential_protein
+stat: 0.111254665518231 
+pval: 0.503122871942056
+stat: 6944 
+pval: 0.968418547175443
+
+
+differenced_differential_gene & differential_protein
+stat: 0.124389893769739 
+pval: 0.361689885413625
+stat: 6562 
+pval: 0.457459144532013
+
+
+differential_gene & differenced_differential_protein
+stat: 0.080749354005168 
+pval: 0.865315310034859
+stat: 6803 
+pval: 0.764756536309166

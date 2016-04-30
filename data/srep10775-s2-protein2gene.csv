@@ -1,0 +1,30 @@
+Gene name,Entrez Gene id,Protein name,Source,Catalog No.,Dilution
+AKT1,207,AKT,Cell Signaling,Ab4685,1 in 200
+BRCA1,672,BRCA1,Eurogentec,75460,1 in 70
+CCNB1,891,CyclinB1,Epitomics,1495-1,1 in 50
+CCND1,595,CyclinD1,Dako,M3635,1 in 100
+CDH1,999,Ecadherin,BD sciences,610181,1 in 1500
+CDK2,1017,CDK2,Cell Signaling,2546,1 in 100
+CDKN1B,1027,P27,Cell Signaling,2552,1 in 100
+CLDN7,1366,Claudin7,Abcam,AB27487,1 in 200
+CTNNB1,1499,BetaCatenin,BD sciences,610153,1 in 500
+EGFR,1956,EGFR,Invitrogen,28-0005,1 in 50
+ERBB2,2064,HER2,Dako,A0485,1 in 400
+ERBB3,2065,HER3,Dako,M7297,1 in 50
+ERCC1,2067,ERCC1,Labvision,MS-671-P0,1 in 600
+ESR1,2099,ER,Dako,7047,1 in 50
+HIF1A,3091,HIF1alpha,Cell Signaling,3176,1 in 25
+IGFBP3,3486,IGFBP3,Abcam,Ab4248,1 in 100
+MAPK1,5594,ERK,Cell Signaling,9107,1 in 250
+MET,4233,MET,Eurogentec,75551,1 in 400
+MLH1,4292,MLH1,Leica,NCL-L-MLH1,1 in 100
+MSH2,4436,MSH2,Invitrogen,33-7900,1 in 50
+MSH6,2956,MSH6,Leica,NCL-L-MSH6,1 in 250
+MYC,4609,Myc,Eurogentec,75355,1 in 70
+NCOA3,8202,AIB1,BD sciences ,61105,1 in 50
+PGR,5241,PgR,Dako,3569,1 in 50
+PMS2,5395,PMS2,Leica,NCL-L-PMS2,1 in 250
+PTEN,5728,PTEN,Cell Signaling,9559,1 in 200
+RPS6,6194,S6,Cell Signaling ,2217,1 in 100
+SERPINE1,5054,PAI,BD Sciences,P612024,1 in 200
+VIM,7431,Vimentin,Sigma,V6630,1 in 400

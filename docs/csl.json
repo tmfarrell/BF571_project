@@ -1,0 +1,398 @@
+[
+	{
+		"id": "http://zotero.org/users/local/0zGBFHts/items/5I5FAMMU",
+		"type": "article-journal",
+		"title": "A validated gene regulatory network and GWAS identifies early regulators of T cell–associated diseases",
+		"container-title": "Science Translational Medicine",
+		"page": "313ra178-313ra178",
+		"volume": "7",
+		"issue": "313",
+		"source": "stm.sciencemag.org",
+		"abstract": "Identifying disease before it starts\nDiseases may be easier to treat if caught early. However, means of identifying early disease—especially before symptoms appear—are in short supply. Now, Gustafsson et al. identify early regulators of T cell–mediated disease by finding transcription factors involved in T cell differentiation that are enriched in disease-associated polymorphisms. Three such experimentally validated transcription factors—GATA3, MAF, and MYB—and their targets were found to be differentially expressed in asymptomatic stages of two different T cell–mediated diseases—multiple sclerosis and seasonal allergic rhinitis. These data not only provide potential markers of disease development but also shed light on the mechanistic underpinning of T cell–mediated disease.\nEarly regulators of disease may increase understanding of disease mechanisms and serve as markers for presymptomatic diagnosis and treatment. However, early regulators are difficult to identify because patients generally present after they are symptomatic. We hypothesized that early regulators of T cell–associated diseases could be found by identifying upstream transcription factors (TFs) in T cell differentiation and by prioritizing hub TFs that were enriched for disease-associated polymorphisms. A gene regulatory network (GRN) was constructed by time series profiling of the transcriptomes and methylomes of human CD4+ T cells during in vitro differentiation into four helper T cell lineages, in combination with sequence-based TF binding predictions. The TFs GATA3, MAF, and MYB were identified as early regulators and validated by ChIP-seq (chromatin immunoprecipitation sequencing) and small interfering RNA knockdowns. Differential mRNA expression of the TFs and their targets in T cell–associated diseases supports their clinical relevance. To directly test if the TFs were altered early in disease, T cells from patients with two T cell–mediated diseases, multiple sclerosis and seasonal allergic rhinitis, were analyzed. Strikingly, the TFs were differentially expressed during asymptomatic stages of both diseases, whereas their targets showed altered expression during symptomatic stages. This analytical strategy to identify early regulators of disease by combining GRNs with genome-wide association studies may be generally applicable for functional and clinical studies of early disease development.\nCombining a gene regulatory network and disease association data identified early regulators of T cell–associated diseases.\nCombining a gene regulatory network and disease association data identified early regulators of T cell–associated diseases.",
+		"URL": "http://stm.sciencemag.org/content/7/313/313ra178",
+		"DOI": "10.1126/scitranslmed.aad2722",
+		"ISSN": "1946-6234, 1946-6242",
+		"note": "PMID: 26560356",
+		"language": "en",
+		"author": [
+			{
+				"family": "Gustafsson",
+				"given": "Mika"
+			},
+			{
+				"family": "Gawel",
+				"given": "Danuta R."
+			},
+			{
+				"family": "Alfredsson",
+				"given": "Lars"
+			},
+			{
+				"family": "Baranzini",
+				"given": "Sergio"
+			},
+			{
+				"family": "Björkander",
+				"given": "Janne"
+			},
+			{
+				"family": "Blomgran",
+				"given": "Robert"
+			},
+			{
+				"family": "Hellberg",
+				"given": "Sandra"
+			},
+			{
+				"family": "Eklund",
+				"given": "Daniel"
+			},
+			{
+				"family": "Ernerudh",
+				"given": "Jan"
+			},
+			{
+				"family": "Kockum",
+				"given": "Ingrid"
+			},
+			{
+				"family": "Konstantinell",
+				"given": "Aelita"
+			},
+			{
+				"family": "Lahesmaa",
+				"given": "Riita"
+			},
+			{
+				"family": "Lentini",
+				"given": "Antonio"
+			},
+			{
+				"family": "Liljenström",
+				"given": "H. Robert I."
+			},
+			{
+				"family": "Mattson",
+				"given": "Lina"
+			},
+			{
+				"family": "Matussek",
+				"given": "Andreas"
+			},
+			{
+				"family": "Mellergård",
+				"given": "Johan"
+			},
+			{
+				"family": "Mendez",
+				"given": "Melissa"
+			},
+			{
+				"family": "Olsson",
+				"given": "Tomas"
+			},
+			{
+				"family": "Pujana",
+				"given": "Miguel A."
+			},
+			{
+				"family": "Rasool",
+				"given": "Omid"
+			},
+			{
+				"family": "Serra-Musach",
+				"given": "Jordi"
+			},
+			{
+				"family": "Stenmarker",
+				"given": "Margaretha"
+			},
+			{
+				"family": "Tripathi",
+				"given": "Subhash"
+			},
+			{
+				"family": "Viitala",
+				"given": "Miro"
+			},
+			{
+				"family": "Wang",
+				"given": "Hui"
+			},
+			{
+				"family": "Zhang",
+				"given": "Huan"
+			},
+			{
+				"family": "Nestor",
+				"given": "Colm E."
+			},
+			{
+				"family": "Benson",
+				"given": "Mikael"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015",
+					11,
+					11
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2016",
+					4,
+					30
+				]
+			]
+		},
+		"PMID": "26560356"
+	},
+	{
+		"id": "http://zotero.org/users/local/0zGBFHts/items/7RP6P5NB",
+		"type": "article-journal",
+		"title": "Computing the functional proteome: recent progress and future prospects for genome-scale models",
+		"container-title": "Current Opinion in Biotechnology",
+		"collection-title": "Systems biology • Nanobiotechnology",
+		"page": "125-134",
+		"volume": "34",
+		"source": "ScienceDirect",
+		"abstract": "Constraint-based models enable the computation of feasible, optimal, and realized biological phenotypes from reaction network reconstructions and constraints on their operation. To date, stoichiometric reconstructions have largely focused on metabolism, resulting in genome-scale metabolic models (M-Models). Recent expansions in network content to encompass proteome synthesis have resulted in models of metabolism and protein expression (ME-Models). ME-Models advance the predictions possible with constraint-based models from network flux states to the spatially resolved molecular composition of a cell. Specifically, ME-Models enable the prediction of transcriptome and proteome allocation and limitations, and basal expression states and regulatory needs. Continued expansion in reconstruction content and constraints will result in an increasingly refined representation of cellular composition and behavior.",
+		"URL": "http://www.sciencedirect.com/science/article/pii/S0958166914002328",
+		"DOI": "10.1016/j.copbio.2014.12.017",
+		"ISSN": "0958-1669",
+		"shortTitle": "Computing the functional proteome",
+		"journalAbbreviation": "Current Opinion in Biotechnology",
+		"author": [
+			{
+				"family": "O’Brien",
+				"given": "Edward J"
+			},
+			{
+				"family": "Palsson",
+				"given": "Bernhard O"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015",
+					8
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2016",
+					4,
+					30
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/0zGBFHts/items/CNVJANEQ",
+		"type": "article-journal",
+		"title": "Functional and effective connectivity: a review",
+		"container-title": "Brain Connectivity",
+		"page": "13-36",
+		"volume": "1",
+		"issue": "1",
+		"source": "PubMed",
+		"abstract": "Over the past 20 years, neuroimaging has become a predominant technique in systems neuroscience. One might envisage that over the next 20 years the neuroimaging of distributed processing and connectivity will play a major role in disclosing the brain's functional architecture and operational principles. The inception of this journal has been foreshadowed by an ever-increasing number of publications on functional connectivity, causal modeling, connectomics, and multivariate analyses of distributed patterns of brain responses. I accepted the invitation to write this review with great pleasure and hope to celebrate and critique the achievements to date, while addressing the challenges ahead.",
+		"DOI": "10.1089/brain.2011.0008",
+		"ISSN": "2158-0022",
+		"note": "PMID: 22432952",
+		"shortTitle": "Functional and effective connectivity",
+		"journalAbbreviation": "Brain Connect",
+		"language": "eng",
+		"author": [
+			{
+				"family": "Friston",
+				"given": "Karl J."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2011"
+				]
+			]
+		},
+		"PMID": "22432952"
+	},
+	{
+		"id": "http://zotero.org/users/local/0zGBFHts/items/KGXE96GB",
+		"type": "article-journal",
+		"title": "Systematic Evaluation of Methods for Integration of Transcriptomic Data into Constraint-Based Models of Metabolism",
+		"container-title": "PLoS Comput Biol",
+		"page": "e1003580",
+		"volume": "10",
+		"issue": "4",
+		"abstract": "Author Summary Constraint-based modeling has become one of the most successful approaches for modeling large-scale biochemical networks. There are nowadays hundreds of genome-scale reconstructions of metabolic networks available for a wide variety of organisms ranging from bacteria to human cells. One of the limitations of the constraint-based approach is that it describes the cellular phenotype simply in terms of biochemical reaction rates, in a way that is disconnected from other biological processes such as genetic regulation. In order to overcome this limitation, different approaches for integration of gene expression data into constraint-based models have been developed during the past few years. However, all the methods developed so far have only been tested using isolated case studies. In this work, we elaborate a detailed survey of these methods, and perform a critical and quantitative evaluation of a selected subset of methods, using experimental datasets that include different organisms and conditions. This study highlights some of the current limitations in many of these methods, and reveals that no method published so far systematically outperforms the others.",
+		"URL": "http://dx.doi.org/10.1371%2Fjournal.pcbi.1003580",
+		"DOI": "10.1371/journal.pcbi.1003580",
+		"journalAbbreviation": "PLoS Comput Biol",
+		"author": [
+			{
+				"family": "Machado",
+				"given": "Daniel"
+			},
+			{
+				"family": "Herrg�rd",
+				"given": "Markus"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014",
+					4,
+					24
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/0zGBFHts/items/NTD39PVR",
+		"type": "article",
+		"title": "Computing the functional proteome: recent progress and future prospects for genome-scale models - 1-s2.0-S0958166914002328-main.pdf",
+		"URL": "http://ac.els-cdn.com/S0958166914002328/1-s2.0-S0958166914002328-main.pdf?_tid=3a13a9e6-0ea4-11e6-8ec6-00000aacb35e&acdnat=1462001099_3a6ff124a498b57388f007133dd350e5",
+		"accessed": {
+			"date-parts": [
+				[
+					"2016",
+					4,
+					30
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/0zGBFHts/items/PSVSDM99",
+		"type": "article-journal",
+		"title": "Pharmacogenomic and clinical data link non-pharmacokinetic metabolic dysregulation to drug side effect pathogenesis",
+		"container-title": "Nature Communications",
+		"page": "7101",
+		"volume": "6",
+		"source": "www.nature.com",
+		"abstract": "Drug side effects cause a significant clinical and economic burden. However, mechanisms of drug action underlying side effect pathogenesis remain largely unknown. Here, we integrate pharmacogenomic and clinical data with a human metabolic network and find that non-pharmacokinetic metabolic pathways dysregulated by drugs are linked to the development of side effects. We show such dysregulated metabolic pathways contain genes with sequence variants affecting side effect incidence, play established roles in pathophysiology, have significantly altered activity in corresponding diseases, are susceptible to metabolic inhibitors and are effective targets for therapeutic nutrient supplementation. Our results indicate that metabolic dysregulation represents a common mechanism underlying side effect pathogenesis that is distinct from the role of metabolism in drug clearance. We suggest that elucidating the relationships between the cellular response to drugs, genetic variation of patients and cell metabolism may help managing side effects by personalizing drug prescriptions and nutritional intervention strategies.",
+		"URL": "http://www.nature.com/ncomms/2015/150609/ncomms8101/full/ncomms8101.html",
+		"DOI": "10.1038/ncomms8101",
+		"journalAbbreviation": "Nat Commun",
+		"language": "en",
+		"author": [
+			{
+				"family": "Zielinski",
+				"given": "Daniel C."
+			},
+			{
+				"family": "Filipp",
+				"given": "Fabian V."
+			},
+			{
+				"family": "Bordbar",
+				"given": "Aarash"
+			},
+			{
+				"family": "Jensen",
+				"given": "Kasper"
+			},
+			{
+				"family": "Smith",
+				"given": "Jeffrey W."
+			},
+			{
+				"family": "Herrgard",
+				"given": "Markus J."
+			},
+			{
+				"family": "Mo",
+				"given": "Monica L."
+			},
+			{
+				"family": "Palsson",
+				"given": "Bernhard O."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015",
+					6,
+					9
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2016",
+					4,
+					30
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/0zGBFHts/items/QPGTV2W6",
+		"type": "article",
+		"title": "A community-driven global reconstruction of human metabolism - nbt.2488.pdf",
+		"URL": "http://www.nature.com/nbt/journal/v31/n5/pdf/nbt.2488.pdf",
+		"accessed": {
+			"date-parts": [
+				[
+					"2016",
+					4,
+					30
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/local/0zGBFHts/items/W7VV7VMM",
+		"type": "article-journal",
+		"title": "Relationship between differentially expressed mRNA and mRNA-protein correlations in a xenograft model system",
+		"container-title": "Scientific Reports",
+		"page": "10775",
+		"volume": "5",
+		"URL": "http://dx.doi.org/10.1038/srep10775",
+		"journalAbbreviation": "Scientific Reports",
+		"author": [
+			{
+				"family": "Koussounadis",
+				"given": "Antonis"
+			},
+			{
+				"family": "Langdon",
+				"given": "Simon P."
+			},
+			{
+				"family": "Um",
+				"given": "In Hwa"
+			},
+			{
+				"family": "Harrison",
+				"given": "David J."
+			},
+			{
+				"family": "Smith",
+				"given": "V. Anne"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015",
+					6,
+					8
+				]
+			]
+		}
+	}
+]
