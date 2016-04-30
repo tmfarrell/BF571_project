@@ -40,6 +40,7 @@ for (expr in c("gene_expression", "differential_gene_expression", "differenced_d
       } 
     } 
 } 
+write.table(ADFs, file=paste0(basedir,'data/adf_data.csv'), sep=',')
 
 # get those ts that can be taken as stationary
 stationary = ADFs[which(ADFs[,"pval"] <= 0.01),]
@@ -82,5 +83,8 @@ for (t in as.character(unique(stationary_gene[,"type"]))) {
     }
   }
 }
+write.table(g_cause, file=paste0(basedir,'data/granger_causality_data.csv'), sep=',')
 }
+
+
 

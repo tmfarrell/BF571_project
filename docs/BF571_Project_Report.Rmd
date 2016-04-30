@@ -30,7 +30,7 @@ nocite: |
   
   Here I attempt to replicate the findings of a recent paper that examined the relationship between gene and protein expression (@koussounadis_relationship_2015).  The authors argue and demonstrate that although overall gene expression is poorly correlated with differential protein expression, differentially expressed genes show higher correllations with protein expression than non-differentially expressed genes.  This result could provide practical insight into how gene expression data should be incorporated into ME-models. 
   
-  In addition, I apply a weak causal measure, a time-series method called Granger causality, to the gene and protein expression data in an attempt to build upon the paper's correlation analyses. Using an analogy to neuroinformatics analyses, this methodology suggests an alternative approach to investigating the mRNA-protein relationship and to building mRNA-protein co-expression networks (@friston_functional_2011). 
+  In addition, I apply a weak causal measure, a time-series method called Granger causality (G-causality), to the gene and protein expression data in an attempt to build upon the paper's correlation analyses. Using an analogy to neuroinformatics analyses, interestingly G-causality is used to describe 'information flow' and has theoretical basis in information theory (@amblard_relation_2012). This methodology suggests an alternative approach to investigating the mRNA-protein relationship and to building mRNA-protein co-expression networks (@friston_functional_2011). 
   
 ### Methods
 
@@ -45,18 +45,22 @@ nocite: |
    
   The major difference between my analysis and the authors' (which likely somehow accounts for differences in results) is that, due to difficulties related to extracting the GSE/ GSMs as `R` `ExpressionSet` objects (via the `GEOquery` package), _lumi_ log-2 rather than variance-stabilization transformation was applied during data processing. In addition, I also performed my analysis with and without _lumi_ preprocessing to investigate its effects on my results. 
   
-   For the Granger-causality analysis, I first apply the Augmented Dickey-Fuller test to assess for each expression time series' stationarity, a property required for application of the Granger casuality test; and then perform Granger casuality tests between all mRNA-protein pairs for a given condition (e.g. "HOX424 CarboTax", "OV1002 Carbo", etc.).  I use the `adf.test` and `grangertest` (from the `R` `lmtest` and `tseries` packages, respectively) for these tests.
+   For the Granger-causality (G-casuality) analysis, I first apply the Augmented Dickey-Fuller test to assess for each expression time series' stationarity, a property required for application of the Granger casuality test; and then perform Granger casuality tests between all mRNA-protein pairs for a given condition (e.g. "HOX424 CarboTax", "OV1002 Carbo", etc.).  I use the `adf.test` and `grangertest` (from the `R` `lmtest` and `tseries` packages, respectively) for these tests.
+   
+   Code, documents and data can be found [here](https://github.com/tmfarrell/BF571_project).
 
 ### Results
 
-  The major results to replicate in @koussounadis_relationship_2015 were Figures 2 and 4.
-
-### Discussion
-
+  The major results to replicate in @koussounadis_relationship_2015 were Figures 2 and 4. As can be seen from the appended figures, the results of this paper could not be reproduced.  Likely this was due to the difference in `lumi` preprocessing steps in my versus their analysis.  
   
+  Additionally, there was some abiguity as to exactly how the correlations between differential gene and protein expression were calculated after differentially-expressed genes and non-differentially-expressed genes were identified. Specifically, since there were multiple time-points for each gene for each condition, then for each gene for each condition for each time-point, a p-value is generated from the `limma` package's log fold change (logFC) functionality.  Thus, though they explicitly list an FDR cutoff of 0.05; does this mean a gene is differentially-expressed if _any_ of the its time-points for that condition are significant? Or _all_ are significant? For my analyses, I used the latter and this may have skewed the results. 
+  
+  As far as G-causal analyses, I was able to apply ADF to all of the timeseries; and then the G-causality tests to those timeseries that showed stationarity from the ADF test. The data can be found in accompanying `data` directory. 
 
-### Future Work
+### Discussion/ Future Work
 
-  See @seth_granger_2015 and @amblard_relation_2012 for review of the use of Granger casaulity in neuroinformatics.
+  The results from my analysis show that gene and protein expression show poor correlation over time and under various conditions, even after using difference and differential transformations. Despite the differences between my and the original author's analysis, this comfirms the fact that the mRNA-protein relationship is more nuanced than mere correlation.  This area requires more investigation if gene expression studies are to used for any functional arguments.  Additionally, it would be highly useful to computational bioengineering applications for the gene-protein expression relationship to be resolved quantitatively. 
+
+  Although I was unable to see this analysis through to its logical conclusion (due to time constraints), the idea of building (G-)causal models of gene-protein expression seems like an interesting direction for this area of research. As an analogy to neuroscientific analyses, it seems reasonable that such G-causal models could be linked with generative models to obtain a so-called "Granger predictive" models, which could be assessed through application to experimental data. See @seth_granger_2015 for review of how this is done in neuroinformatics research. 
 
 ### References
